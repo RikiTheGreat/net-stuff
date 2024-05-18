@@ -11,7 +11,7 @@
             "name": "linux",
             "hidden": true,
             "binaryDir": "lin-build",
-            "cacheVariables": { "CMAKE_CXX_COMPILER": "g++",  "CMAKE_TOOLCHAIN_FILE": "/home/mahdi/vcpkg/scripts/buildsystems/vcpkg.cmake"}
+            "cacheVariables": { "CMAKE_CXX_COMPILER": "g++"}
         }, 
 
         {
