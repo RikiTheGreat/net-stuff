@@ -40,7 +40,8 @@ void RIK::RikServer::answer()
                       "</body>\n"
                       "</html>\n";
 
-    write(_new_socket, response, strlen(response));
+    int n = write(_new_socket, response, strlen(response));
+    get_socket()->testConnection(n);
     close(_new_socket);
 }
 
