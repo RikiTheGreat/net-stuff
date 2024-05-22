@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.29) 
+cmake_minimum_required(VERSION 3.28.1)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
 project(net-stuff LANGUAGES CXX)
 
@@ -15,5 +15,6 @@ else()
   add_compile_options(-Werror)
 endif()
 
-#add_subdirectory(proxy_beast_asio)
+add_subdirectory(proxy_beast_asio)
 add_subdirectory(lin_sock_webserver)
+add_subdirectory(file_sharing_asio)

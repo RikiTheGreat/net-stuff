@@ -18,3 +18,7 @@ winRelease-ninja-build/*
 .vs/*
 .vscode/
 .vscode/*
+.idea/
+.idea/*
+cmake-build-debug/
+cmake-build-debug/*

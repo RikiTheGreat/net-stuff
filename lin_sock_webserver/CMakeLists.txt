@@ -1,6 +1,5 @@
 
-set(SOURCES 
-
+set(SOURCES
         Networking/Sockets/SimpleSocket.hpp
         Networking/Sockets/SimpleSocket.cpp
         Networking/Sockets/BindingSocket.cpp 

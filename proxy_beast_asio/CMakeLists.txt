@@ -6,5 +6,5 @@ else()
   message(STATUS "Boost NOT Found !")
 endif(Boost_FOUND)
 
-add_executable(proxy main.cpp "Proxy.cpp")
+add_executable(proxy main.cpp Proxy.cpp)
 target_link_libraries(proxy PRIVATE  ${Boost_LIBRARIES} OpenSSL::SSL OpenSSL::Crypto)
